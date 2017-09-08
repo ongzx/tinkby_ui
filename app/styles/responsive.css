@@ -914,6 +914,16 @@
         max-width: 400px;
         width: 400px;
     }
+	.homepage .contact-section .contact-image {
+		margin-right: 0px;
+		margin-bottom: 20px;
+	}
+	.homepage .contact-section .contact-info {
+		text-align:center;
+	}
+	.homepage .contact-section .contact-info a {
+		margin: 20px auto;
+	}
 }
 
 @media (max-width: 400px)  {
