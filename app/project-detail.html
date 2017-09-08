@@ -1,0 +1,526 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>tinkby</title>
+
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <!-- build:css styles/vendor.css -->
+  <!-- bower:css -->
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css" />
+  <!-- endbower -->
+  <!-- endbuild -->
+  
+  <!-- build:css styles/main.css -->
+  <link ref="stylesheet" href="../bower_components/fullpage.js/jquery.fullPage.css" />
+  <link rel="stylesheet" href="styles/font-awesome.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/animation.css">
+  <link rel="stylesheet" href="styles/responsive.css">
+  <link rel="stylesheet" href="styles/cache.skin.css">
+  <!-- endbuild -->
+
+  <!-- build:js scripts/vendor/modernizr.js -->
+  <script src="../bower_components/modernizr/modernizr.js"></script>
+  <!-- endbuild -->
+</head>
+
+<body>
+  <!--[if IE]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+  <!-- Preloader -->
+  <div class="mask">
+    <div id="preloader">
+      <div class="la-line-scale la-dark">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </div>
+  <!--/Preloader -->
+
+  <header class="sticky-header main-header darkgrey">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="header-left logo">
+            <a class="logo-link" href="#">
+              <img src="images/tinkby-logo.png" alt="Tinkby" class="regular-logo">
+            </a>
+          </div>
+
+          <div class="header-center">
+            <div id="navbar" class="navbar navbar-default clearfix mgt-mega-menu">
+              <div class="navbar-inner">
+
+                <div class="navbar-toggle" data-toggle="collapse" data-target=".collapse">
+                  Menu
+                </div>
+
+                <div class="navbar-collapse collapse">
+                  <ul id="menu-pf_basic-1" class="nav">
+                    <li id="mgt-menu-item-2037" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="" class="active"><strong>Projects</strong></a></li>
+                    <li id="mgt-menu-item-2534" class="menu-item menu-item-type-post_type menu-item-object-page"><a href=""><strong>Profile</strong></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="header-right text-right">
+            <div class="user-info">
+              <div class="user-profile-image">
+                <img src="./images/profile-alex-small.png" />
+              </div>
+              <span class="user-name">Welcome Alex</span>
+              <a href="#" class="user-menu">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+              </a>
+              <div class="user-toggle-menu hidden">
+                <div class="arrow"></div>
+                <ul>
+                  <li class="menu-item">
+                    <a href="#">Help</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#">Change Password</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#">Settings</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#">Sign Out</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <div class="content-block stick-to-footer">
+    <div class="page-container fullwidth-container">
+      <div class="project-comment-landing ">
+        <div class="container-fluid no-margin no-padding fullwidth">
+          <div class="row fullwidth no-margin">
+            <div class="col-sm-6 left-section">
+              <a id="btn-back" href="#" class="default-btn mgt-button mgt-size-normal mgt-display-block mgt-text-size-normal mgt-text-transform-uppercase">
+                <i class="fa fa-angle-left" aria-hidden="true"></i> Back
+              </a>
+              <div class="highlight-box"></div>
+              <h1 class="section-title">Premium <br/> Chocolate Sugar</h1>
+              <p class="section-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                sint occaecat cupidatat non proident exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <div class="author">
+                <img src="./images/profile-alex-small.png" />
+                <span class="name">by Alex</span>
+              </div>
+            </div>
+            <div class="col-sm-6 right-section">
+              <img src="./images/product-cacao-detail.jpg" />
+            </div>
+          </div>
+          <div class="project-overall-stats">
+            <div class="col-sm-12">
+              <span class="stat">
+                <span id="total-likes" class="number">7</span> Likes
+              </span>
+              <span class="stat">
+                <span id="total-comments" class="number">13</span> Comments
+              </span>
+              <span class="stat">
+                <span id="total-challenges" class="number">0</span> Challenges
+              </span>
+              <span class="stat">
+                <span id="total-builds" class="number">0</span> Builds
+              </span>
+              <span class="stat">
+                <span id="total-uploads" class="number">0</span> Uploads
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="fullwidth project-detail-section">
+        <div class="row no-margin">
+          <div class="col-sm-8 left-section">
+
+            <!-- COMMENT SECTION -->
+            <div class="row comment-section">
+              <div class="options">
+                <a id="comment" href="#" class="default-btn mgt-button mgt-size-normal mgt-style-borderedtransparent mgt-display-inline mgt-text-size-normal mgt-text-transform-uppercase active">
+                            Comment
+                        </a>
+                <a id="challenge" href="#" class="default-btn mgt-button mgt-size-normal mgt-style-borderedtransparent mgt-display-inline mgt-text-size-normal mgt-text-transform-uppercase">
+                            Challenge
+                        </a>
+                <a id="build" href="#" class="default-btn mgt-button mgt-size-normal mgt-style-borderedtransparent mgt-display-inline mgt-text-size-normal mgt-text-transform-uppercase">
+                            Build
+                        </a>
+                <a id="upload" href="#" class="default-btn mgt-button mgt-size-normal mgt-style-borderedtransparent mgt-display-inline mgt-text-size-normal mgt-text-transform-uppercase">
+                            Upload
+                        </a>
+              </div>
+              <div class="textarea-section">
+                <div class="form-group">
+                  <div class="arrow-indicator"></div>
+                  <textarea class="form-control" name="textarea" rows="6" value=""></textarea>
+                  <small><strong>1000</strong> Chars left</small>
+                </div>
+                <div class="text-right">
+                  <button class="btn-share btn-form text-uppercase text-center">Share</button>
+                </div>
+              </div>
+              <div class="upload-image-section">
+                <div class="form-group text-center">
+                  <label class="add-image-btn">
+                    <img id="img-preview" src="" />
+                    <input id="idea-img" type="file"/>
+                    <span class="custom-label">Add Image</span>
+                  </label>
+                </div>
+                <div class="text-right">
+                  <button id="post" class="btn-share btn-form text-uppercase text-center">Post</button>
+                </div>
+              </div>
+            </div>
+            <!-- /COMMENT SECTION -->
+
+            <!-- USER FEEDBACK SECTION -->
+            <div class="row user-feedback">
+              <ul class="comments">
+                <li>
+                  <div class="row comment">
+                    <div class="author-thumbnail">
+                      <img src="./images/profile-alex-small.png" />
+                    </div>
+                    <div class="writeup">
+                      <label class="title">Alex's comment</label>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.
+                      </p>
+                    </div>
+                    <div class="comment-action">
+                      <a href="#" class="btn-like default-btn mgt-button mgt-size-normal">
+                          <img src="./images/icon-like.png" /> <strong>2</strong> Likes 
+                      </a>
+                      <a href="#" class="btn-respond default-btn mgt-button mgt-size-normal">
+                          Respond
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row user-replies">
+                    <ul class="replies">
+                      <li>
+                        <div class="author-thumbnail">
+                          <img src="./images/profile-alex-small.png" />
+                        </div>
+                        <div class="writeup">
+                          <label class="title">Alex's comment</label>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.
+                          </p>
+                        </div>
+                        <div class="comment-action">
+                          <a href="#" class="default-btn mgt-button mgt-size-normal">
+                                <img src="./images/icon-like.png" /> <strong>2</strong> Likes 
+                            </a>
+                          <a href="#" class="default-btn mgt-button mgt-size-normal">
+                                Respond
+                            </a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <div class="row comment">
+                    <div class="author-thumbnail">
+                      <img src="./images/profile-alex-small.png" />
+                    </div>
+                    <div class="writeup">
+                      <label class="title">Alex's comment</label>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.
+                      </p>
+                    </div>
+                    <div class="comment-action">
+                      <a href="#" class="default-btn mgt-button mgt-size-normal">
+                          <img src="./images/icon-like.png" /> <strong>2</strong> Likes 
+                      </a>
+                      <a href="#" class="default-btn mgt-button mgt-size-normal">
+                          Respond
+                      </a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- /USER FEEDBACK SECTION -->
+          <div class="col-sm-4 right-section">
+
+            <!-- INVEST SECTION -->
+            <div class="row invest-section">
+              <label class="section-title text-uppercase">Invest</label>
+              <p>You have <strong>9100</strong> points to invest</p>
+              <a id="invest" href="#" class="default-btn mgt-button mgt-size-normal mgt-style-borderedtransparentwhite mgt-display-inline mgt-text-size-normal mgt-text-transform-uppercase">
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                    Invest
+                </a>
+              <a id="cashout" href="#" class="default-btn mgt-button mgt-size-normal mgt-style-borderedtransparentwhite mgt-display-inline mgt-text-size-normal mgt-text-transform-uppercase">
+                    <i class="fa fa-minus" aria-hidden="true"></i>
+                    Cash Out
+                </a>
+              <div class="form-group">
+                <input type="number" class="form-control" name="amount_invest" />
+                <button class="btn-invest text-uppercase">Invest</button>
+              </div>
+              <p>You've invested 9100 points</p>
+            </div>
+            <!-- /INVEST SECTION -->
+
+            <!-- INVESTOR DISTRIBUTION SECTION -->
+            <div class="row invest-distribution-section">
+              <label class="section-title text-uppercase">Investor Distribution</label>
+              <canvas id="distribution-chart" width="200" height="200"></canvas>
+              <div id="chart-legends"></div>
+            </div>
+            <!-- /INVESTOR DISTRIBUTION SECTION -->
+
+            <!-- TAG SECTION -->
+            <div class="row tag-section">
+              <label class="section-title text-uppercase">Add a Tag</label>
+              <p>Tags are terms that help others search for this idea</p>
+              <div class="form-group">
+                <input type="text" class="form-control" name="tag" placeholder="Add tags separated by comma" />
+                <button class="btn-tag-share text-uppercase">Share</button>
+              </div>
+              <p class="tags">Solubles, Condiments, Single Serve</p>
+            </div>
+            <!-- /TAG SECTION -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid-footer">
+    <footer>
+      <div class="container-fluid">
+        <div class="col-sm-6 col-xs-12 footer-copyright">
+          Copyright &copy; Propellerfish Limited 2017
+        </div>
+        <div class="col-sm-6 col-xs-7 footer-copyright text-right">
+          <a href="#">Terms of Use</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <script>
+    (function (b, o, i, l, e, r) {
+      b.GoogleAnalyticsObject = l;
+      b[l] || (b[l] =
+        function () {
+          (b[l].q = b[l].q || []).push(arguments)
+        });
+      b[l].l = +new Date;
+      e = o.createElement(i);
+      r = o.getElementsByTagName(i)[0];
+      e.src = 'https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-XXXXX-X');
+    ga('send', 'pageview');
+
+  </script>
+
+  <!-- build:js scripts/vendor.js -->
+  <!-- bower:js -->
+  <script src="../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../bower_components/modernizr/modernizr.js"></script>
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:js scripts/plugins.js -->
+  <script src="../bower_components/bootstrap/js/affix.js"></script>
+  <script src="../bower_components/bootstrap/js/alert.js"></script>
+  <script src="../bower_components/bootstrap/js/dropdown.js"></script>
+  <script src="../bower_components/bootstrap/js/tooltip.js"></script>
+  <script src="../bower_components/bootstrap/js/modal.js"></script>
+  <script src="../bower_components/bootstrap/js/transition.js"></script>
+  <script src="../bower_components/bootstrap/js/button.js"></script>
+  <script src="../bower_components/bootstrap/js/popover.js"></script>
+  <script src="../bower_components/bootstrap/js/carousel.js"></script>
+  <script src="../bower_components/bootstrap/js/scrollspy.js"></script>
+  <script src="../bower_components/bootstrap/js/collapse.js"></script>
+  <script src="../bower_components/bootstrap/js/tab.js"></script>
+  <!-- endbuild -->
+  
+
+  <!-- build:js scripts/main.js -->
+  <script src="../bower_components/fullpage.js/jquery.fullPage.js"></script>
+  <script src="./scripts/Chart.min.js"></script>
+  <script src="./scripts/main.js"></script>
+  <script>
+
+    function readURL(input) {
+      if (input.files && input.files[0]) {
+        var reader = new FileReader();
+        reader.onload = function (e) {
+          $('#img-preview').attr('src', e.target.result);
+          $('#img-preview').css({display: 'block'});
+          $('.custom-label').css({display: "none"});
+        }
+        reader.readAsDataURL(input.files[0]);
+      }
+    }
+
+    $("#idea-img").change(function () {
+      readURL(this);
+    });
+
+    var ctx = document.getElementById("distribution-chart");
+    var data = {
+      datasets: [{
+        data: [20, 30, 50],
+        backgroundColor: [
+          '#6aa4a5',
+          '#b7d9d6',
+          '#abb96e'
+        ],
+        borderWidth: 0,
+      }],
+      labels: [
+        '20% Finance',
+        '30% R&D',
+        '50% Marketing'
+      ]
+    };
+
+    var options = {
+      responsive: false,
+      legend: {
+        position: 'right',
+        display: false
+      },
+      cutoutPercentage: 80,
+      rotation: -0.6 * Math.PI,
+      animation: {
+        animateScale: true,
+        animateRotate: true
+      },
+      layout: {
+        padding: {
+          left: 0,
+          right: 0,
+          top: 0,
+          bottom: 0
+        }
+      },
+      legendCallback: function (chart) {
+        var text = [];
+        text.push('<ul>');
+        for (var i = 0; i < chart.config.data.datasets[0].data.length; i++) {
+          text.push('<li>');
+          text.push('<span class="circle-indicator" style="background-color:' + chart.config.data.datasets[0].backgroundColor[
+            i] + '"></span><span class="label">' + chart.config.data.labels[
+            i] + '</span>');
+          text.push('</li>');
+        }
+        text.push('</ul>');
+        return text.join("");
+      }
+    }
+
+    var myDoughnutChart = new Chart(ctx, {
+      type: 'doughnut',
+      data: data,
+      options: options
+    });
+
+    document.getElementById('chart-legends').innerHTML = myDoughnutChart.generateLegend();
+
+    $('#comment').on('click', function (e) {
+      e.preventDefault();
+      $('.textarea-section').css({display: 'block'});
+      $('.upload-image-section').css({display: 'none'});
+      $('.comment-section .options a').removeClass('active');
+      $(this).addClass('active');
+      $('.comment-section .arrow-indicator').css({
+        left: '10%'
+      });
+    });
+
+    $('#challenge').on('click', function (e) {
+      e.preventDefault();
+      $('.textarea-section').css({display: 'block'});
+      $('.upload-image-section').css({display: 'none'});
+      $('.comment-section .options a').removeClass('active');
+      $(this).addClass('active');
+      $('.comment-section .arrow-indicator').css({
+        left: '35%'
+      });
+    });
+
+    $('#build').on('click', function (e) {
+      e.preventDefault();
+      $('.textarea-section').css({display: 'block'});
+      $('.upload-image-section').css({display: 'none'});
+      $('.comment-section .options a').removeClass('active');
+      $(this).addClass('active');
+      $('.comment-section .arrow-indicator').css({
+        left: '60%'
+      });
+    });
+
+    $('#upload').on('click', function (e) {
+      e.preventDefault();
+      $('.textarea-section').css({display: 'none'});
+      $('.upload-image-section').css({display: 'block'});
+      $('.comment-section .options a').removeClass('active');
+      $(this).addClass('active');
+      $('.comment-section .arrow-indicator').css({
+        left: '85%'
+      });
+    });
+
+    $('.btn-tag-share').on('click', function (e) {
+      e.preventDefault();
+      var tag = $('input[name="tag"]').val();
+      $('.tags').append(", " + tag);
+      $('input[name="tag"]').val("");
+    })
+
+  </script>
+  <!-- endbuild -->
+</body>
+
+</html>

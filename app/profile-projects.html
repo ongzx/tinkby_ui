@@ -1,0 +1,462 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>tinkby</title>
+
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <!-- build:css styles/vendor.css -->
+  <!-- bower:css -->
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css" />
+  <!-- endbower -->
+  <!-- endbuild -->
+  
+  <!-- build:css styles/main.css -->
+  <link ref="stylesheet" href="../bower_components/fullpage.js/jquery.fullPage.css" />
+  <link rel="stylesheet" href="styles/font-awesome.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/animation.css">
+  <link rel="stylesheet" href="styles/responsive.css">
+  <link rel="stylesheet" href="styles/cache.skin.css">
+  <!-- endbuild -->
+
+  <!-- build:js scripts/vendor/modernizr.js -->
+  <script src="../bower_components/modernizr/modernizr.js"></script>
+  <!-- endbuild -->
+</head>
+
+<body>
+  <!--[if IE]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+  <!-- Preloader -->
+  <div class="mask">
+    <div id="preloader">
+      <div class="la-line-scale la-dark">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </div>
+  <!--/Preloader -->
+
+  <header class="sticky-header main-header dark">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="header-left logo">
+            <a class="logo-link" href="#">
+              <img src="images/tinkby-logo.png" alt="Tinkby" class="regular-logo">
+            </a>
+          </div>
+
+          <div class="header-center">
+            <div id="navbar" class="navbar navbar-default clearfix mgt-mega-menu">
+              <div class="navbar-inner">
+
+                <div class="navbar-toggle" data-toggle="collapse" data-target=".collapse">
+                  Menu
+                </div>
+
+                <div class="navbar-collapse collapse">
+                  <ul id="menu-pf_basic-1" class="nav">
+                    <li id="mgt-menu-item-2037" class="menu-item menu-item-type-post_type menu-item-object-page"><a href=""><strong>Projects</strong></a></li>
+                    <li id="mgt-menu-item-2534" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="" class="active"><strong>Profile</strong></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="header-right text-right">
+            <div class="user-info">
+              <div class="user-profile-image">
+                <img src="./images/profile-alex-small.png" />
+              </div>
+              <span class="user-name">Welcome Alex</span>
+              <a href="#" class="user-menu">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+              </a>
+              <div class="user-toggle-menu hidden">
+                <div class="arrow"></div>
+                <ul>
+                  <li class="menu-item">
+                    <a href="#">Help</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#">Change Password</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#">Settings</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#">Sign Out</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <div class="content-block stick-to-footer">
+    <div class="page-container fullwidth-container">
+      <div class="profile-landing profile-project-margin">
+        <div class="container-fluid no-margin no-padding fullwidth">
+          <div class="row fullwidth no-margin">
+            <div class="col-sm-3 col-xs-6 profile-photo-col flex-center">
+              <!--<img src="./images/profile-alex-2.png" />-->
+              <div style="background: url(./images/profile-alex-2.png) no-repeat; background-size: cover; background-position:center center; width: 100%; height: 100%;"></div>
+            </div>
+            <div class="col-sm-3 col-xs-6 user-info-col highlighted">
+              <div class="corner-arrow"></div>
+              <div class="row">
+                <div class="col-sm-12">
+                  <label id="user-name" class="text-uppercase">Alex</label>
+                </div>
+                <div class="col-sm-6">
+                  <label id="total-idea">7 Ideas</label>
+                </div>
+                <div class="col-sm-6">
+                  <label id="total-contribution">13 Contributions</label>
+                </div>
+                <div class="col-sm-6">
+                  <label id="total-founded">0 Founded</label>
+                </div>
+                <div class="col-sm-6">
+                  <label id="total-investment">14 Investments</label>
+                </div>
+                <div class="col-sm-12">
+                  <label id="total-networth">$6,650 Net Worth </label>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-xs-6 innovation-index-col ">
+              <label class="text-uppercase text-center">Innovation Index</label>
+              <div class="rounded-icon-wrapper flex-center">
+                <label class="innovation-value">27</label>
+              </div>
+            </div>
+            <div class="col-sm-3 col-xs-6 innovation-dna-col disabled">
+              <label class="text-uppercase text-center">Innovation DNA</label>
+              <div class="rounded-icon-wrapper flex-center">
+                <img src="./images/icon-incomplete.png" />
+              </div>
+              <small class="status">Creative Coach</small>
+            </div>
+          </div>
+
+          <div class="container-fluid ideas-gallery padding30">
+            <div class="grid-filter">
+              <a href="#" class="active" data-filter="*">Recent</a>
+              <a href="#" data-filter=".funded">Funded</a>
+              <a href="#" data-filter=".topcollaborator">My Investments</a>
+            </div>
+            <div id="grid">
+              <div id="grid-content">
+              </div>
+            </div>
+            <i class="spinner fa fa-circle-o-notch fa-spin fa-2x fa-fw text-center"></i>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid-footer">
+    <footer>
+      <div class="container-fluid">
+        <div class="col-sm-6 col-xs-12 footer-copyright">
+          Copyright &copy; Propellerfish Limited 2017
+        </div>
+        <div class="col-sm-6 col-xs-7 footer-copyright text-right">
+          <a href="#">Terms of Use</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <script>
+    (function (b, o, i, l, e, r) {
+      b.GoogleAnalyticsObject = l;
+      b[l] || (b[l] =
+        function () {
+          (b[l].q = b[l].q || []).push(arguments)
+        });
+      b[l].l = +new Date;
+      e = o.createElement(i);
+      r = o.getElementsByTagName(i)[0];
+      e.src = 'https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-XXXXX-X');
+    ga('send', 'pageview');
+
+  </script>
+
+  <!-- build:js scripts/vendor.js -->
+  <!-- bower:js -->
+  <script src="../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../bower_components/modernizr/modernizr.js"></script>
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:js scripts/plugins.js -->
+  <script src="../bower_components/bootstrap/js/affix.js"></script>
+  <script src="../bower_components/bootstrap/js/alert.js"></script>
+  <script src="../bower_components/bootstrap/js/dropdown.js"></script>
+  <script src="../bower_components/bootstrap/js/tooltip.js"></script>
+  <script src="../bower_components/bootstrap/js/modal.js"></script>
+  <script src="../bower_components/bootstrap/js/transition.js"></script>
+  <script src="../bower_components/bootstrap/js/button.js"></script>
+  <script src="../bower_components/bootstrap/js/popover.js"></script>
+  <script src="../bower_components/bootstrap/js/carousel.js"></script>
+  <script src="../bower_components/bootstrap/js/scrollspy.js"></script>
+  <script src="../bower_components/bootstrap/js/collapse.js"></script>
+  <script src="../bower_components/bootstrap/js/tab.js"></script>
+  <!-- endbuild -->
+  
+  <!-- build:js scripts/main.js -->
+  <script src="../bower_components/fullpage.js/jquery.fullPage.js"></script>
+  <script src="./scripts/isotope.pkgd.min.js"></script>
+  <script src="./scripts/infinite-scroll.pkgd.min.js"></script>
+  <script src="./scripts/masonry.pkgd.js"></script>
+  <script src="./scripts/main.js"></script>
+  <script>
+    /**
+     * Ideas gallery masonry 
+     */
+    var mock_ideas = [{
+        title: "Non Cacao Chocolate",
+        ideaImg: "./images/product-cacao.jpg",
+        isFavourite: true,
+        description: "In a world of declining political instability in areas producing cacao, In a world of declining political instability in areas producing cacao, in a world of declining political instability in areas producing cacao..",
+        progress: "10%",
+        contributor: "Alex",
+        contributorImg: "./images/profile-alex-small.png"
+      },
+      {
+        title: "Non Cacao Chocolate",
+        ideaImg: "",
+        isFavourite: false,
+        description: "In a world of declining political instability in areas producing cacao, in a world of declining political instability in areas producing cacao..",
+        progress: "20%",
+        contributor: "Alex",
+        contributorImg: "./images/profile-alex-small.png"
+      },
+      {
+        title: "Non Cacao Chocolate",
+        ideaImg: "",
+        isFavourite: false,
+        description: "In a world of declining political instability in areas producing cacao, in a world of declining political instability in areas producing cacao..",
+        progress: "100%",
+        contributor: "Alex",
+        contributorImg: "./images/profile-alex-small.png"
+      },
+      {
+        title: "Non Cacao Chocolate",
+        ideaImg: "./images/product-cacao.jpg",
+        isFavourite: false,
+        description: "In a world of declining political instability in areas producing cacao, in a world of declining political instability in areas producing cacao..",
+        progress: "50%",
+        contributor: "Alex",
+        contributorImg: "./images/profile-alex-small.png"
+      },
+      {
+        title: "Non Cacao Chocolate",
+        ideaImg: "",
+        isFavourite: true,
+        description: "In a world of declining political instability in areas producing cacao, in a world of declining political instability in areas producing cacao..",
+        progress: "100%",
+        contributor: "Alex",
+        contributorImg: "./images/profile-alex-small.png"
+      },
+      {
+        title: "Non Cacao Chocolate",
+        ideaImg: "./images/product-cacao.jpg",
+        isFavourite: false,
+        description: "In a world of declining political instability in areas producing cacao, in a world of declining political instability in areas producing cacao..",
+        progress: "100%",
+        contributor: "Alex",
+        contributorImg: "./images/profile-alex-small.png"
+      },
+      {
+        title: "Non Cacao Chocolate",
+        ideaImg: "",
+        isFavourite: false,
+        description: "In a world of declining political instability in areas producing cacao, in a world of declining political instability in areas producing cacao..",
+        progress: "100%",
+        contributor: "Alex",
+        contributorImg: "./images/profile-alex-small.png"
+      },
+      {
+        title: "Non Cacao Chocolate",
+        ideaImg: "",
+        isFavourite: false,
+        description: "In a world of declining political instability in areas producing cacao, in a world of declining political instability in areas producing cacao..",
+        progress: "80%",
+        contributor: "Alex",
+        contributorImg: "./images/profile-alex-small.png"
+      },
+      {
+        title: "Non Cacao Chocolate",
+        ideaImg: "",
+        isFavourite: false,
+        description: "In a world of declining political instability in areas producing cacao, in a world of declining political instability in areas producing cacao..",
+        progress: "80%",
+        contributor: "Alex",
+        contributorImg: "./images/profile-alex-small.png"
+      },
+      {
+        title: "Non Cacao Chocolate",
+        ideaImg: "",
+        isFavourite: false,
+        description: "In a world of declining political instability in areas producing cacao, in a world of declining political instability in areas producing cacao..",
+        progress: "100%",
+        contributor: "Alex",
+        contributorImg: "./images/profile-alex-small.png"
+      },
+      {
+        title: "Non Cacao Chocolate",
+        ideaImg: "",
+        isFavourite: false,
+        description: "In a world of declining political instability in areas producing cacao, in a world of declining political instability in areas producing cacao..",
+        progress: "100%",
+        contributor: "Alex",
+        contributorImg: "./images/profile-alex-small.png"
+      },
+      {
+        title: "Non Cacao Chocolate",
+        ideaImg: "./images/product-cacao.jpg",
+        isFavourite: false,
+        description: "In a world of declining political instability in areas producing cacao, in a world of declining political instability in areas producing cacao..",
+        progress: "100%",
+        contributor: "Alex",
+        contributorImg: "./images/profile-alex-small.png"
+      },
+    ]
+
+    function generateItems() {
+      var items = '';
+      for (var i = 0; i < mock_ideas.length; i++) {
+        items += '<div class="grid-sizer grid-item col-sm-3 col-xs-12  ' + (i % 2 == 0 ? "topidea" : "topcollaborator") +
+          '">';
+        items += '<div class="idea-wrapper">';
+        if (mock_ideas[i].isFavourite)
+          items += '<img src="./images/icon-bookmark.png" class="idea-bookmarked"/>';
+        items += '<label class="idea-title" >' + mock_ideas[i].title + '</label>';
+        if (mock_ideas[i].ideaImg)
+          items += '<img class="idea-img" src="' + mock_ideas[i].ideaImg + '" />';
+        items += '<p class="idea-desc" >' + mock_ideas[i].description + '</p>';
+        items += '<img class="contributor-img" src="' + mock_ideas[i].contributorImg + '" />';
+        items += '<span class="contributor-name">' + mock_ideas[i].contributor + '</span>';
+        items += '<div class="progress-wrapper">';
+        items += '<small class="progress-funded">' + mock_ideas[i].progress + ' Funded</small>';
+        items += '<div class="total-progress"><div class="current-progress" style="width: ' + mock_ideas[i].progress +
+          '"></div></div>';
+        items += '</div>';
+        items += '</div>';
+        items += '</div>';
+      }
+      return $(items);
+    }
+
+    $('#grid-content').append(generateItems());
+
+    $grid = $('#grid');
+
+    setTimeout(function () {
+      $grid.isotope({
+        itemSelector: '.grid-item',
+        percentPosition: true,
+        masonry: {
+          columnWidth: '.grid-sizer',
+        }
+      });
+    }, 300);
+
+    $('.grid-filter').on('click', 'a', function (e) {
+      e.preventDefault();
+      $('.grid-filter a').removeClass();
+      $(this).addClass('active');
+      var filterValue = $(this).attr('data-filter');
+      if (filterValue === '.funded') {
+        $grid.isotope({
+            filter: function() {
+                var number = $(this).find('.progress-funded').text();
+                // return true to show, false to hide
+                return number === '100% Funded';
+            }
+        });
+      } else {
+        $grid.isotope({
+            filter: filterValue
+        });
+      }
+    });
+
+    /**
+     * Infinite loading of ideas
+     */
+    var didScroll = false;
+    var totalHeight; //total height of the whole page
+    var visibleHeight; //visible height of the page
+
+    $(window).scroll(function () {
+      didScroll = true; //if user is scrolling then set didscroll to true
+    });
+
+    setInterval(function () {
+      if (didScroll) {
+        didScroll = false;
+        totalHeight = document.body.offsetHeight; //setting height of total page
+        visibleHeight = document.documentElement.clientHeight; //setting height of the page- current view
+
+        if (window.pageXOffset !== undefined) { // All browsers, except IE9 and earlier
+          currentScrollEnd = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement ||
+            document.body.parentNode || document.body).scrollTop;
+        } else { // IE9 and earlier
+          currentScrollEnd = (document.documentElement.scrollTop !== undefined) ? document.documentElement.scrollTop :
+            (document.documentElement || document.body.parentNode || document.body).scrollTop;
+        }
+
+        if (totalHeight - 800 <= currentScrollEnd + visibleHeight) {
+          appendProjects();
+        }
+      }
+    }, 1500);
+
+    function appendProjects() {
+      $('.spinner').css({
+        display: 'block'
+      });
+      var elem = generateItems();
+      $grid.isotope()
+        .append(elem)
+        .isotope('appended', elem)
+        .isotope('layout');
+      $('.spinner').css({
+        display: 'none'
+      });
+    }
+
+  </script>
+  <!-- endbuild -->
+</body>
+
+</html>

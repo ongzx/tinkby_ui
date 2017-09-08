@@ -1,0 +1,137 @@
+  header .col-md-12 {
+      height: 90px;
+  }
+  header .logo-link img {
+      width: 100px;
+  }
+  #preloader-image img {
+      width: 100px;
+  }
+  .fullwidth-section.parallax,
+  .parallax {
+      background-attachment: fixed!important;
+  }
+  /**  * Custom CSS  **/
+  /** * Theme Google Font  **/
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+      font-family: 'Lato';
+  }
+  h1 {
+      font-size: 35px;
+  }
+  #jckqv,
+  #jckqv *,
+  #jckqv p,
+  .wpml-lang #lang_sel {
+      font-family: 'Lato';
+  }
+  body {
+      font-family: 'Lato';
+      font-size: 16px;
+  }
+  /**  * Colors and color skins  */
+  
+  body {
+      background-color: #ffffff;
+      color: #4c4d4f;
+  }
+  .st-pusher,
+  .st-sidebar-pusher {
+      background-color: #ffffff;
+  }
+  a.btn,
+  .btn,
+  .btn:focus,
+  input[type="submit"],
+  .woocommerce #content input.button,
+  .woocommerce #respond input#submit,
+  .woocommerce a.button,
+  .woocommerce button.button,
+  .woocommerce input.button,
+  .woocommerce-page #content input.button,
+  .woocommerce-page #respond input#submit,
+  .woocommerce-page a.button,
+  .woocommerce-page button.button,
+  .woocommerce-page input.button,
+  .woocommerce a.added_to_cart,
+  .woocommerce-page a.added_to_cart,
+  .btn-primary:hover,
+  .btn-primary:active,
+  .navbar .nav > li:not(.menu-item-has-children) > a:after,
+  #top-link,
+  .sidebar .widget_calendar th,
+  .sidebar .widget_calendar tfoot td,
+  .tp-bullets.simplebullets.round .bullet:hover,
+  .tp-bullets.simplebullets.round .bullet.selected,
+  .tp-bullets.simplebullets.navbar .bullet:hover,
+  .tp-bullets.simplebullets.navbar .bullet.selected,
+  body .flex-control-paging li a.flex-active,
+  body .flex-control-paging li a:hover,
+  .mgt-post-list .mgt-post-icon,
+  .mgt-button.mgt-style-solid-invert:hover,
+  .mgt-button.mgt-style-bordered:hover,
+  .mgt-button.mgt-style-grey:hover,
+  .portfolio-item-block.portfolio-item-animation-0 .portfolio-item-bg,
+  .portfolio-list-related .portfolio-item-block .portfolio-item-bg,
+  .blog-post .more-link:after,
+  .portfolio-item-block.portfolio-item-animation-6:hover .portfolio-item-bg,
+  .mgt-pricing-table.featured h4.mgt-pricing-table-header,
+  .navbar .navbar-toggle {
+      background-color: #c5d92e;
+  }
+  a,
+  a:focus,
+  .page-404 h1,
+  .navbar .nav > li.current_page_item > a,
+  .post-social-title i,
+  .post-social a:hover,
+  .sidebar .widget_calendar tbody td a,
+  .sidebar.footer-container .widget.widget_calendar tbody td a,
+  .portfolio-filter a.view-all,
+  .navbar .nav > li > a:hover,
+  .blog-post .post-header-title a:hover,
+  header .header-right ul.header-nav a:hover,
+  .blog-post .more-link:hover,
+  .mgt-counter-wrapper .mgt-counter-value,
+  .wpcf7-form .wpcf7-submit:hover,
+  .ninja-forms-cont input[type="submit"]:hover {
+      color: #c5d92e;
+  }
+  .post-social a:hover,
+  .sidebar .widget_calendar tbody td a,
+  body .owl-theme .owl-controls .owl-page.active span,
+  body .owl-theme .owl-controls.clickable .owl-page:hover span,
+  .mgt-button.mgt-style-bordered:hover {
+      border-color: #c5d92e;
+  }
+  header.main-header {
+      background-color: #000;
+  }
+  .mainmenu-belowheader {
+      background-color: #EEEEEE;
+  }
+  .mainmenu-belowheader.mainmenu-dark {
+      background-color: #262626;
+  }
+  .nav > li .sub-menu {
+      background-color: #262626;
+  }
+  .nav .sub-menu li.menu-item > a {
+      color: #FFFFFF;
+  }
+  .nav .sub-menu li.menu-item > a:hover,
+  .nav .children li.menu-item > a:hover {
+      color: #FFFFFF;
+  }
+  .footer-sidebar-2-wrapper {
+      background-color: #262626;
+  }
+  .page-item-title h1 {
+      color: #000000;
+  }
