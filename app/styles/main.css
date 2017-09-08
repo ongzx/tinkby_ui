@@ -426,6 +426,7 @@ blockquote {
 .homepage .about-section p {
     font-size: 24px;
     line-height: 32px;
+    color: #3b3b3c;
 }
 .homepage .services-section {
     background: #9dcec4;
@@ -616,7 +617,9 @@ blockquote {
 }
 .project-comment-landing .section-description {
   color: #fff;
-}
+  font-size: 14px;
+  line-height: 20px;
+} 
 .project-comment-landing .author {
   margin-top:20px;
 }
@@ -643,6 +646,15 @@ blockquote {
   padding-right: 35px;
   padding-bottom: 35px;
   padding-top: 25px;
+}
+.project-detail-landing .section-description {
+    font-size: 14px;
+    line-height: 20px;
+}
+.project-detail-landing .carousel-wrapper {
+    margin-left:0px;
+    opacity:1;
+    overflow-x: visible;
 }
 .project-detail-section .invest-section .section-title {
   margin: 0px;
@@ -2076,7 +2088,7 @@ header .header-center {
 header .header-right {
     display: table-cell;
     vertical-align: middle;
-    min-width: 115px;
+    min-width: 185px;
     position: relative;
 }
 header .header-right .user-profile-image {
